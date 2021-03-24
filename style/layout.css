@@ -68,7 +68,7 @@ body{
    width: 760px;
    height: 150px
    }
-   @media all and (max-width:767px){
+   @media all and (max-width:768px){
    
        body{
            background-color: coral;
