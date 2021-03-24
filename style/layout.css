@@ -1,0 +1,256 @@
+/* body{
+    margin: auto;
+    width: 960px;
+     text-align: center;
+  }
+   
+   #a{
+   border:solid 0.5px;
+   width: 960px;
+   height: 100px;
+
+   }
+   
+   #b{
+   border:solid 0.5px;
+   width: 200px;
+   height: 600px;
+   float: left;
+   }
+   #c{
+   border:solid 0.5px;
+   float: left;
+   width: 380px;
+   height: 200px
+   }
+   
+   #d{
+   border:solid 0.5px;
+   float: left;
+   width: 380px;
+   height: 200px
+   
+   }
+   
+   #e{
+   border:solid 0.5px;
+   float: left;
+   width: 190px;
+   height: 250px
+   
+   }
+   
+   #f{
+   border:solid 0.5px;
+   float: left;
+   width: 190px;
+   height: 250px
+   
+   }
+   #g{
+    border:solid 0.5px;
+   float: left;
+   width: 190px;
+   height: 250px
+   
+   }
+   
+   #h{
+   border:solid 0.5px;
+   float: left;
+   width: 190px;
+   height: 250px
+   
+   }
+   #i{
+   border:solid 0.5px;
+   float: left; 
+   width: 760px;
+   height: 150px
+   } */
+   #e2,#f2,#g2,#h2{
+    display: none;
+   }
+   body{
+    width: calc(100vw - 40px);
+    max-width: 960px;
+}
+   section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 250px 150px;
+  }
+    #a{
+      grid-column-start: 1;
+      grid-column-end: 6;
+      height: 100%;
+  }
+  #b{
+      grid-row-start: 2;
+      grid-row-end: 5;
+      height: 100%;
+  }
+  #c{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 100%;
+  }
+  #d{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 100%;
+  }
+  #colomn{
+  display: grid;
+  grid-template-columns:1fr ;
+  grid-template-rows: 1fr ;
+
+  }
+  #e{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 100%;
+  }
+  
+   
+  
+    #f{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        height: 100%;
+
+  }
+
+  #g{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 100%;
+  }
+  #h{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 100%;
+    width: 100%;
+  } 
+   
+  
+  #i{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    height: 100%;  
+  }
+   @media (max-width:768px){
+   
+       body{
+           background-color: rgb(0, 0, 0);
+           margin: auto;
+           width: 480px;
+
+       }
+       
+       
+       section{
+        display: flex;
+        flex-direction:column;
+         height:50%
+       }
+      
+       
+       #a{
+        height: 125px;
+        display: flex;
+        flex-grow:2;
+        text-align: center;
+
+        justify-content: center;
+         align-items: center;
+         
+
+       }
+       #b{
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+       }
+       #c{
+        height: 125px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+       }
+       #d{
+        height: 125px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        
+ 
+       }
+       #colomn{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+     #e,#f,#g,#h{
+         display: none;
+     }
+       
+       #e2{   
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+       }
+       #f2{  
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+       }
+       
+       #g2{   
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+       }
+       
+       #h2{  
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+
+       }
+       #i{
+    
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       }

@@ -1,0 +1,11 @@
+body{
+    background-color:rgb(255, 255, 255);
+    margin: 50px auto;
+
+}
+*{
+    box-sizing: border-box;
+}
+main{
+    max-width: calc(100% - 10px);
+}
